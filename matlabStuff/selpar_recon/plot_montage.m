@@ -22,7 +22,11 @@ end
 load(strcat(path, '/sosimg.mat'))
 fig_handle = figure('Position', get(0, 'Screensize'));
 
-limit = 3.5;
+% set path to bias field maps
+load('.../data/BiasMatrix.mat')
+bias = bias./max(bias(:));
+img = img./bias;
+limit = 3.0;
 img = img./mean(img(:));
 
 montage(img, 'Size', [nan, Nimg], 'DisplayRange', [0 limit]), colorbar

@@ -15,12 +15,12 @@ seq = 'sp'; % sequence = SP-DW-HASTE
 b_value = 'b0';
 R = 2;
 file = sprintf('%s/%s/%s/R%i/', path, seq, b_value, R);
-master_script_selpar_recon('', file, 'spirit_cg', 'no', 'yes', 22, 7, 100, 30, 1:5, 1, a_coef, b_coef, 'no', 'int', '', '', R)
+master_script_selpar_recon('', file, 'spirit_cg', 'no', 'no', 22, 5, 100, 30, 1:5, 1, a_coef, b_coef, 'no', 'int', '', '', R)
 
 b_value = 'b1000p';
 R = 2;
 file = sprintf('%s/%s/%s/R%i/', path, seq, b_value, R);
-master_script_selpar_recon('', file, 'spirit_cg', 'no', 'yes', 22, 7, 100, 30, 1:5, 1, a_coef, b_coef, 'yes', 'int', '', '', R)
+master_script_selpar_recon('', file, 'spirit_cg', 'no', 'no', 22, 5, 100, 30, 1:5, 1, a_coef, b_coef, 'yes', 'int', '', '', R)
 
 
 % DW-HASTE recon
@@ -31,9 +31,9 @@ seq = 'haste'; % sequence = DW-HASTE
 b_value = 'b0';
 R = 2;
 file = sprintf('%s/%s/%s/R%i/', path, seq, b_value, R);
-master_script_selpar_recon('', file, 'spirit_cg', 'no', 'yes', 22, 5, 100, 30, 1:5, 1, a_coef, b_coef, 'no', 'int', '', '', R)
+master_script_selpar_recon('', file, 'spirit_cg', 'no', 'no', 22, 5, 100, 30, 1:5, 1, a_coef, b_coef, 'no', 'int', '', '', R)
 
 b_value = 'b1000p';
 R = 2;
 file = sprintf('%s/%s/%s/R%i/', path, seq, b_value, R);
-master_script_selpar_recon('', file, 'spirit_cg', 'no', 'yes', 22, 5, 100, 30, 1:5, 1, a_coef, b_coef, 'no', 'int', '', '', R)
+master_script_selpar_recon('', file, 'spirit_cg', 'no', 'no', 22, 5, 100, 30, 1:5, 1, a_coef, b_coef, 'no', 'int', '', '', R)
