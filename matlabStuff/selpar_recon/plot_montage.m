@@ -22,10 +22,6 @@ end
 load(strcat(path, '/sosimg.mat'))
 fig_handle = figure('Position', get(0, 'Screensize'));
 
-load('/home/vk/Documents/work/projects/MRIdata/tests/alg1_old/data/BiasMatrix.mat')
-bias = bias./max(bias(:));
-bias = bias(:,:,28:32);
-img = img./bias;
 limit = 3.5;
 img = img./mean(img(:));
 
