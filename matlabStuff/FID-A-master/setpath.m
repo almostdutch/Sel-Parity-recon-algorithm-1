@@ -1,0 +1,1 @@
+addpath(genpath('/home/vitaliy/Documents/projects/matlabStuff/FID-A-master'))
