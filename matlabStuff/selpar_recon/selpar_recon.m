@@ -3,7 +3,7 @@ function [kspaceOP_spiritRecon, imgOP_spiritRecon, kspaceEP_spiritRecon, imgEP_s
 % function [kspaceOP_spiritRecon, imgOP_spiritRecon, kspaceEP_spiritRecon, imgEP_spiritRecon, ...
 %     kspaceOP_spRecon, imgOP_spRecon, kspaceEP_spRecon, imgEP_spRecon, cpmgPhaseMap, residuals] = selpar_recon(ParsAndDataForRecon)
 %
-% Script implementing selpar recon algorithm #1 (old version)
+% Script implementing selpar recon algorithm #1
 %
 
 % kspace dims
