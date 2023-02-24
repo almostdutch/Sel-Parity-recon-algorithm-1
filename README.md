@@ -1,7 +1,7 @@
 # Sel-Parity-recon-algorithm-1
 
 Scripts for reconstruction of selective parity DW-HASTE MRI data. 
-<br/>The best way to getting started is to read "readme.docs" file for each of the algorithm.<br/>
+<br/>The best way to getting started is to read "readme.docs" file.<br/>
 
 Folder “matlabStuff” has the following dependencies:
 - FID-A-master: scripts for reading Siemens raw “*.dat” files.
